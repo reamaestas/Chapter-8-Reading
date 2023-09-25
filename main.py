@@ -45,10 +45,42 @@ top_half = vegetable[:3]
 bottom_half = vegetable[3:]
 end_piece = vegetable[-1]
 print(top_half, bottom_half, end_piece)
+print("----STRING IMMUTABLITY-----------")
+title = 'the princess bride'
+print(title)
+title = 'The Princess Bride'
+print(title)
+#we aren't CHANGING the string, we are REPLACING the string
+pet = 'dog'
+print(pet +'s')
+print(pet)
+pet = 'cat'
+print(pet)
+pet +='s'
+print(pet)
+print("----str methods-----------")
+print(vegetable.count('r'))
+print(vegetable.find('a'))
+print(vegetable.find('r')) #returns first occurance
+print(vegetable.find('q')) #returns -1 if not found
+print(vegetable.index('a'))
+print(vegetable.index('r')) #returns first occurance
+#if not found, throws an error 
+# ie print(vegetable.index('q'))
+print(vegetable.upper())
+print(vegetable.lower())
+print(vegetable.replace('r','f'))
+print(vegetable.replace('q','f'))
+#it wont replace what isnt there
+print(vegetable.split('r'))
+print(vegetable.split('a'))
+print(vegetable.strip('c'))
+#useful to strip spaces
 print("---------------")
-
-print("---------------")
-print("---------------")
+nonprofit = 'LaunchCode'
+lowercase = nonprofit.lower()
+meal_plan = nonprofit.replace("a", '')
+print(nonprofit, lowercase, meal_plan)
 print("---------------")
 print("---------------")
 
