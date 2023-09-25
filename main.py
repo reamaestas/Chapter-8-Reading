@@ -40,8 +40,13 @@ print(fruit[:3])
 print(fruit[3:])
 print("------saving substrings---------")
 vegetable = "carrot"
-
+print(len(vegetable))
+top_half = vegetable[:3]
+bottom_half = vegetable[3:]
+end_piece = vegetable[-1]
+print(top_half, bottom_half, end_piece)
 print("---------------")
+
 print("---------------")
 print("---------------")
 print("---------------")
